@@ -1,9 +1,22 @@
-/* =============
-    Section 1
-============= */
-#section-1{
-    .grid-content{
+#section-1 {
+    text-align: center;
+
+    .center {
+        position: relative;
+        text-align: center;
+    }
+
+    h1{
+        color: $darkaqua;
+        font-family: 'Comfortaa', cursive;
+        font-size: rem-calc(48)
         
+    }
+
+    h3{
+        color: $lightaqua;
+        font-family: 'Comfortaa', cursive;
+        font-size: rem-calc(24)
     }
 
 }
